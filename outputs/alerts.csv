@@ -1,0 +1,41 @@
+rule,device,time,hours,kwh_wasted,saving_inr,condition,action,priority,level
+R1,AC,2026-10-20 21:00:00,2,3.0,22.5,AC ON and bedroom empty for 2+ hours,Turn AC off,96.0,High
+R1,AC,2026-10-23 21:00:00,2,3.0,22.5,AC ON and bedroom empty for 2+ hours,Turn AC off,96.0,High
+R1,AC,2026-10-24 21:00:00,2,3.0,22.5,AC ON and bedroom empty for 2+ hours,Turn AC off,96.0,High
+R1,AC,2026-10-21 13:00:00,2,3.0,18.0,AC ON and bedroom empty for 2+ hours,Turn AC off,86.0,High
+R1,AC,2026-10-23 15:00:00,2,3.0,18.0,AC ON and bedroom empty for 2+ hours,Turn AC off,86.0,High
+R1,AC,2026-10-22 13:00:00,2,3.0,18.0,AC ON and bedroom empty for 2+ hours,Turn AC off,86.0,High
+R5,Geyser,2026-10-23 19:00:00,2,4.0,10.8,Geyser ON in peak hours (6-10 PM),Heat in morning / use timer,58.0,Medium
+R3,TV,2026-10-24 14:00:00,3,0.45,2.7,TV ON and room empty for 1+ hour,Turn TV off,54.0,Low
+R3,TV,2026-10-19 14:00:00,2,0.3,1.8,TV ON and room empty for 1+ hour,Turn TV off,52.0,Low
+R3,TV,2026-10-23 15:00:00,2,0.3,1.8,TV ON and room empty for 1+ hour,Turn TV off,52.0,Low
+R3,TV,2026-10-25 15:00:00,1,0.15,0.9,TV ON and room empty for 1+ hour,Turn TV off,50.0,Low
+R3,TV,2026-10-20 16:00:00,1,0.15,0.9,TV ON and room empty for 1+ hour,Turn TV off,50.0,Low
+R3,TV,2026-10-20 14:00:00,1,0.15,0.9,TV ON and room empty for 1+ hour,Turn TV off,50.0,Low
+R3,TV,2026-10-21 15:00:00,1,0.15,0.9,TV ON and room empty for 1+ hour,Turn TV off,50.0,Low
+R3,TV,2026-10-22 15:00:00,1,0.15,0.9,TV ON and room empty for 1+ hour,Turn TV off,50.0,Low
+R2,Lights,2026-10-22 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-21 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-25 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-20 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-19 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-24 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-23 06:00:00,1,0.12,0.72,Lights ON and room empty for 1+ hour,Turn lights off,49.6,Low
+R2,Lights,2026-10-21 00:00:00,1,0.12,0.48,Lights ON and room empty for 1+ hour,Turn lights off,49.1,Low
+R2,Lights,2026-10-19 00:00:00,1,0.12,0.48,Lights ON and room empty for 1+ hour,Turn lights off,49.1,Low
+R2,Lights,2026-10-24 00:00:00,1,0.12,0.48,Lights ON and room empty for 1+ hour,Turn lights off,49.1,Low
+R2,Lights,2026-10-23 00:00:00,1,0.12,0.48,Lights ON and room empty for 1+ hour,Turn lights off,49.1,Low
+R2,Lights,2026-10-22 00:00:00,1,0.12,0.48,Lights ON and room empty for 1+ hour,Turn lights off,49.1,Low
+R2,Lights,2026-10-25 00:00:00,1,0.12,0.48,Lights ON and room empty for 1+ hour,Turn lights off,49.1,Low
+R6,AC,2026-10-22 23:00:00,8,12.0,8.1,AC ON 7+ continuous hours,Set sleep timer / 24C,47.0,Low
+R6,AC,2026-10-21 23:00:00,8,12.0,8.1,AC ON 7+ continuous hours,Set sleep timer / 24C,47.0,Low
+R6,AC,2026-10-23 23:00:00,8,12.0,8.1,AC ON 7+ continuous hours,Set sleep timer / 24C,47.0,Low
+R5,Geyser,2026-10-19 20:00:00,1,2.0,5.4,Geyser ON in peak hours (6-10 PM),Heat in morning / use timer,46.0,Low
+R5,Geyser,2026-10-25 20:00:00,1,2.0,5.4,Geyser ON in peak hours (6-10 PM),Heat in morning / use timer,46.0,Low
+R5,Geyser,2026-10-21 20:00:00,1,2.0,5.4,Geyser ON in peak hours (6-10 PM),Heat in morning / use timer,46.0,Low
+R5,Geyser,2026-10-20 19:00:00,1,2.0,5.4,Geyser ON in peak hours (6-10 PM),Heat in morning / use timer,46.0,Low
+R6,AC,2026-10-19 00:00:00,7,10.5,7.2,AC ON 7+ continuous hours,Set sleep timer / 24C,45.0,Low
+R6,AC,2026-10-24 23:00:00,7,10.5,6.75,AC ON 7+ continuous hours,Set sleep timer / 24C,44.0,Low
+R4,Washing Machine,2026-10-20 19:00:00,2,1.0,2.7,Washing machine runs in peak hours (6-10 PM),Shift to off-peak (after 11 PM),44.0,Low
+R4,Washing Machine,2026-10-23 19:00:00,2,1.0,2.7,Washing machine runs in peak hours (6-10 PM),Shift to off-peak (after 11 PM),44.0,Low
+R4,Washing Machine,2026-10-25 19:00:00,2,1.0,2.7,Washing machine runs in peak hours (6-10 PM),Shift to off-peak (after 11 PM),44.0,Low
